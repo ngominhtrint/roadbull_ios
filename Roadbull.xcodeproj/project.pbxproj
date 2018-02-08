@@ -1,0 +1,780 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2C72A688D06ED48221F8E554 /* Pods_Roadbull.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A903F3C36485C79D28B850CE /* Pods_Roadbull.framework */; };
+		70162C569BBE4E8CDC041481 /* Pods_RoadbullUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DEF73FE9B1490489A542E422 /* Pods_RoadbullUITests.framework */; };
+		B57CB588E7E7687055036F1F /* Pods_RoadbullTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2B1362650497AC4655AFCE5 /* Pods_RoadbullTests.framework */; };
+		EBED9482202C12F6004188B6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBED9481202C12F6004188B6 /* AppDelegate.swift */; };
+		EBED9484202C12F6004188B6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBED9483202C12F6004188B6 /* ViewController.swift */; };
+		EBED9487202C12F6004188B6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EBED9485202C12F6004188B6 /* Main.storyboard */; };
+		EBED948A202C12F6004188B6 /* Roadbull.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = EBED9488202C12F6004188B6 /* Roadbull.xcdatamodeld */; };
+		EBED948C202C12F6004188B6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EBED948B202C12F6004188B6 /* Assets.xcassets */; };
+		EBED948F202C12F6004188B6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EBED948D202C12F6004188B6 /* LaunchScreen.storyboard */; };
+		EBED949A202C12F6004188B6 /* RoadbullTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBED9499202C12F6004188B6 /* RoadbullTests.swift */; };
+		EBED94A5202C12F7004188B6 /* RoadbullUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBED94A4202C12F7004188B6 /* RoadbullUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EBED9496202C12F6004188B6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EBED9476202C12F6004188B6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EBED947D202C12F6004188B6;
+			remoteInfo = Roadbull;
+		};
+		EBED94A1202C12F6004188B6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EBED9476202C12F6004188B6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EBED947D202C12F6004188B6;
+			remoteInfo = Roadbull;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		39E92A533491507AC93F5445 /* Pods-Roadbull.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Roadbull.release.xcconfig"; path = "Pods/Target Support Files/Pods-Roadbull/Pods-Roadbull.release.xcconfig"; sourceTree = "<group>"; };
+		3FF85C70F160498636515970 /* Pods-RoadbullUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RoadbullUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-RoadbullUITests/Pods-RoadbullUITests.release.xcconfig"; sourceTree = "<group>"; };
+		7C0DB2593DE631DE4115EF50 /* Pods-Roadbull.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Roadbull.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Roadbull/Pods-Roadbull.debug.xcconfig"; sourceTree = "<group>"; };
+		A903F3C36485C79D28B850CE /* Pods_Roadbull.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Roadbull.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BFE6395FF73C2627AA31882A /* Pods-RoadbullTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RoadbullTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RoadbullTests/Pods-RoadbullTests.debug.xcconfig"; sourceTree = "<group>"; };
+		DE8059C59710C09FCF5677ED /* Pods-RoadbullTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RoadbullTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-RoadbullTests/Pods-RoadbullTests.release.xcconfig"; sourceTree = "<group>"; };
+		DEF73FE9B1490489A542E422 /* Pods_RoadbullUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RoadbullUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EBED947E202C12F6004188B6 /* Roadbull.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Roadbull.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EBED9481202C12F6004188B6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EBED9483202C12F6004188B6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EBED9486202C12F6004188B6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EBED9489202C12F6004188B6 /* Roadbull.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Roadbull.xcdatamodel; sourceTree = "<group>"; };
+		EBED948B202C12F6004188B6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EBED948E202C12F6004188B6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EBED9490202C12F6004188B6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EBED9495202C12F6004188B6 /* RoadbullTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RoadbullTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EBED9499202C12F6004188B6 /* RoadbullTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoadbullTests.swift; sourceTree = "<group>"; };
+		EBED949B202C12F6004188B6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EBED94A0202C12F6004188B6 /* RoadbullUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RoadbullUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EBED94A4202C12F7004188B6 /* RoadbullUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoadbullUITests.swift; sourceTree = "<group>"; };
+		EBED94A6202C12F7004188B6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F2B1362650497AC4655AFCE5 /* Pods_RoadbullTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RoadbullTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F8B4D39D0CADAE59F806E457 /* Pods-RoadbullUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RoadbullUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RoadbullUITests/Pods-RoadbullUITests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EBED947B202C12F6004188B6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C72A688D06ED48221F8E554 /* Pods_Roadbull.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EBED9492202C12F6004188B6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B57CB588E7E7687055036F1F /* Pods_RoadbullTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EBED949D202C12F6004188B6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				70162C569BBE4E8CDC041481 /* Pods_RoadbullUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7E900EAB7AE5954E85C14F8D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A903F3C36485C79D28B850CE /* Pods_Roadbull.framework */,
+				F2B1362650497AC4655AFCE5 /* Pods_RoadbullTests.framework */,
+				DEF73FE9B1490489A542E422 /* Pods_RoadbullUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		81FC705E99FE6010C1159DFC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7C0DB2593DE631DE4115EF50 /* Pods-Roadbull.debug.xcconfig */,
+				39E92A533491507AC93F5445 /* Pods-Roadbull.release.xcconfig */,
+				BFE6395FF73C2627AA31882A /* Pods-RoadbullTests.debug.xcconfig */,
+				DE8059C59710C09FCF5677ED /* Pods-RoadbullTests.release.xcconfig */,
+				F8B4D39D0CADAE59F806E457 /* Pods-RoadbullUITests.debug.xcconfig */,
+				3FF85C70F160498636515970 /* Pods-RoadbullUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		EBED9475202C12F6004188B6 = {
+			isa = PBXGroup;
+			children = (
+				EBED9480202C12F6004188B6 /* Roadbull */,
+				EBED9498202C12F6004188B6 /* RoadbullTests */,
+				EBED94A3202C12F7004188B6 /* RoadbullUITests */,
+				EBED947F202C12F6004188B6 /* Products */,
+				81FC705E99FE6010C1159DFC /* Pods */,
+				7E900EAB7AE5954E85C14F8D /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		EBED947F202C12F6004188B6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EBED947E202C12F6004188B6 /* Roadbull.app */,
+				EBED9495202C12F6004188B6 /* RoadbullTests.xctest */,
+				EBED94A0202C12F6004188B6 /* RoadbullUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EBED9480202C12F6004188B6 /* Roadbull */ = {
+			isa = PBXGroup;
+			children = (
+				EBED9481202C12F6004188B6 /* AppDelegate.swift */,
+				EBED9483202C12F6004188B6 /* ViewController.swift */,
+				EBED9485202C12F6004188B6 /* Main.storyboard */,
+				EBED948B202C12F6004188B6 /* Assets.xcassets */,
+				EBED948D202C12F6004188B6 /* LaunchScreen.storyboard */,
+				EBED9490202C12F6004188B6 /* Info.plist */,
+				EBED9488202C12F6004188B6 /* Roadbull.xcdatamodeld */,
+			);
+			path = Roadbull;
+			sourceTree = "<group>";
+		};
+		EBED9498202C12F6004188B6 /* RoadbullTests */ = {
+			isa = PBXGroup;
+			children = (
+				EBED9499202C12F6004188B6 /* RoadbullTests.swift */,
+				EBED949B202C12F6004188B6 /* Info.plist */,
+			);
+			path = RoadbullTests;
+			sourceTree = "<group>";
+		};
+		EBED94A3202C12F7004188B6 /* RoadbullUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EBED94A4202C12F7004188B6 /* RoadbullUITests.swift */,
+				EBED94A6202C12F7004188B6 /* Info.plist */,
+			);
+			path = RoadbullUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EBED947D202C12F6004188B6 /* Roadbull */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EBED94A9202C12F7004188B6 /* Build configuration list for PBXNativeTarget "Roadbull" */;
+			buildPhases = (
+				C29A90480492C9F1931104E0 /* [CP] Check Pods Manifest.lock */,
+				EBED947A202C12F6004188B6 /* Sources */,
+				EBED947B202C12F6004188B6 /* Frameworks */,
+				EBED947C202C12F6004188B6 /* Resources */,
+				1E076FDDDEBF877146AD910F /* [CP] Embed Pods Frameworks */,
+				9DDF827703E3B6BC5465EE9B /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Roadbull;
+			productName = Roadbull;
+			productReference = EBED947E202C12F6004188B6 /* Roadbull.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EBED9494202C12F6004188B6 /* RoadbullTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EBED94AC202C12F7004188B6 /* Build configuration list for PBXNativeTarget "RoadbullTests" */;
+			buildPhases = (
+				19717A38C58CA168C08E1027 /* [CP] Check Pods Manifest.lock */,
+				EBED9491202C12F6004188B6 /* Sources */,
+				EBED9492202C12F6004188B6 /* Frameworks */,
+				EBED9493202C12F6004188B6 /* Resources */,
+				5290E344BD2CE0B69A79C494 /* [CP] Embed Pods Frameworks */,
+				F626424E9A9262F1BAECCA6A /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EBED9497202C12F6004188B6 /* PBXTargetDependency */,
+			);
+			name = RoadbullTests;
+			productName = RoadbullTests;
+			productReference = EBED9495202C12F6004188B6 /* RoadbullTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EBED949F202C12F6004188B6 /* RoadbullUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EBED94AF202C12F7004188B6 /* Build configuration list for PBXNativeTarget "RoadbullUITests" */;
+			buildPhases = (
+				869EE0AE44F2CFFC3068ECCD /* [CP] Check Pods Manifest.lock */,
+				EBED949C202C12F6004188B6 /* Sources */,
+				EBED949D202C12F6004188B6 /* Frameworks */,
+				EBED949E202C12F6004188B6 /* Resources */,
+				616A2C1710ED8F856A98C762 /* [CP] Embed Pods Frameworks */,
+				607523064BAEB8E15B7A874E /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EBED94A2202C12F6004188B6 /* PBXTargetDependency */,
+			);
+			name = RoadbullUITests;
+			productName = RoadbullUITests;
+			productReference = EBED94A0202C12F6004188B6 /* RoadbullUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EBED9476202C12F6004188B6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = TriNgo;
+				TargetAttributes = {
+					EBED947D202C12F6004188B6 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					EBED9494202C12F6004188B6 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = EBED947D202C12F6004188B6;
+					};
+					EBED949F202C12F6004188B6 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = EBED947D202C12F6004188B6;
+					};
+				};
+			};
+			buildConfigurationList = EBED9479202C12F6004188B6 /* Build configuration list for PBXProject "Roadbull" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EBED9475202C12F6004188B6;
+			productRefGroup = EBED947F202C12F6004188B6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EBED947D202C12F6004188B6 /* Roadbull */,
+				EBED9494202C12F6004188B6 /* RoadbullTests */,
+				EBED949F202C12F6004188B6 /* RoadbullUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EBED947C202C12F6004188B6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EBED948F202C12F6004188B6 /* LaunchScreen.storyboard in Resources */,
+				EBED948C202C12F6004188B6 /* Assets.xcassets in Resources */,
+				EBED9487202C12F6004188B6 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EBED9493202C12F6004188B6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EBED949E202C12F6004188B6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		19717A38C58CA168C08E1027 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RoadbullTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1E076FDDDEBF877146AD910F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Roadbull/Pods-Roadbull-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5290E344BD2CE0B69A79C494 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RoadbullTests/Pods-RoadbullTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		607523064BAEB8E15B7A874E /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RoadbullUITests/Pods-RoadbullUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		616A2C1710ED8F856A98C762 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RoadbullUITests/Pods-RoadbullUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		869EE0AE44F2CFFC3068ECCD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RoadbullUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9DDF827703E3B6BC5465EE9B /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Roadbull/Pods-Roadbull-resources.sh",
+				"${PODS_ROOT}/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Resources/GoogleMaps.bundle",
+				"${PODS_ROOT}/GooglePlaces/Frameworks/GooglePlaces.framework/Resources/GooglePlaces.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Roadbull/Pods-Roadbull-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C29A90480492C9F1931104E0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Roadbull-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F626424E9A9262F1BAECCA6A /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RoadbullTests/Pods-RoadbullTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EBED947A202C12F6004188B6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EBED9484202C12F6004188B6 /* ViewController.swift in Sources */,
+				EBED948A202C12F6004188B6 /* Roadbull.xcdatamodeld in Sources */,
+				EBED9482202C12F6004188B6 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EBED9491202C12F6004188B6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EBED949A202C12F6004188B6 /* RoadbullTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EBED949C202C12F6004188B6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EBED94A5202C12F7004188B6 /* RoadbullUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EBED9497202C12F6004188B6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EBED947D202C12F6004188B6 /* Roadbull */;
+			targetProxy = EBED9496202C12F6004188B6 /* PBXContainerItemProxy */;
+		};
+		EBED94A2202C12F6004188B6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EBED947D202C12F6004188B6 /* Roadbull */;
+			targetProxy = EBED94A1202C12F6004188B6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EBED9485202C12F6004188B6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EBED9486202C12F6004188B6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EBED948D202C12F6004188B6 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EBED948E202C12F6004188B6 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EBED94A7202C12F7004188B6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EBED94A8202C12F7004188B6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EBED94AA202C12F7004188B6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7C0DB2593DE631DE4115EF50 /* Pods-Roadbull.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Roadbull/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tringo.roadbull.Roadbull;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EBED94AB202C12F7004188B6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 39E92A533491507AC93F5445 /* Pods-Roadbull.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Roadbull/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tringo.roadbull.Roadbull;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		EBED94AD202C12F7004188B6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BFE6395FF73C2627AA31882A /* Pods-RoadbullTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = RoadbullTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tringo.roadbull.RoadbullTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Roadbull.app/Roadbull";
+			};
+			name = Debug;
+		};
+		EBED94AE202C12F7004188B6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DE8059C59710C09FCF5677ED /* Pods-RoadbullTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = RoadbullTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tringo.roadbull.RoadbullTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Roadbull.app/Roadbull";
+			};
+			name = Release;
+		};
+		EBED94B0202C12F7004188B6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F8B4D39D0CADAE59F806E457 /* Pods-RoadbullUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = RoadbullUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tringo.roadbull.RoadbullUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Roadbull;
+			};
+			name = Debug;
+		};
+		EBED94B1202C12F7004188B6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3FF85C70F160498636515970 /* Pods-RoadbullUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = RoadbullUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tringo.roadbull.RoadbullUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Roadbull;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EBED9479202C12F6004188B6 /* Build configuration list for PBXProject "Roadbull" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EBED94A7202C12F7004188B6 /* Debug */,
+				EBED94A8202C12F7004188B6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EBED94A9202C12F7004188B6 /* Build configuration list for PBXNativeTarget "Roadbull" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EBED94AA202C12F7004188B6 /* Debug */,
+				EBED94AB202C12F7004188B6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EBED94AC202C12F7004188B6 /* Build configuration list for PBXNativeTarget "RoadbullTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EBED94AD202C12F7004188B6 /* Debug */,
+				EBED94AE202C12F7004188B6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EBED94AF202C12F7004188B6 /* Build configuration list for PBXNativeTarget "RoadbullUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EBED94B0202C12F7004188B6 /* Debug */,
+				EBED94B1202C12F7004188B6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		EBED9488202C12F6004188B6 /* Roadbull.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				EBED9489202C12F6004188B6 /* Roadbull.xcdatamodel */,
+			);
+			currentVersion = EBED9489202C12F6004188B6 /* Roadbull.xcdatamodel */;
+			path = Roadbull.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = EBED9476202C12F6004188B6 /* Project object */;
+}

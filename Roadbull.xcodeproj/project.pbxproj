@@ -13,6 +13,7 @@
 		EB231FFB202CA4A200431553 /* Place.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB231FFA202CA4A200431553 /* Place.swift */; };
 		EB232002202CAF8600431553 /* InfoWindowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB232000202CAF8600431553 /* InfoWindowView.swift */; };
 		EB232006202CBEF600431553 /* InfoWindowView.xib in Resources */ = {isa = PBXBuildFile; fileRef = EB232005202CBEF600431553 /* InfoWindowView.xib */; };
+		EB232008202CD93C00431553 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EB232007202CD93C00431553 /* CoreLocation.framework */; };
 		EBED9482202C12F6004188B6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBED9481202C12F6004188B6 /* AppDelegate.swift */; };
 		EBED9484202C12F6004188B6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBED9483202C12F6004188B6 /* ViewController.swift */; };
 		EBED9487202C12F6004188B6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EBED9485202C12F6004188B6 /* Main.storyboard */; };
@@ -51,6 +52,7 @@
 		EB231FFA202CA4A200431553 /* Place.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Place.swift; sourceTree = "<group>"; };
 		EB232000202CAF8600431553 /* InfoWindowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoWindowView.swift; sourceTree = "<group>"; };
 		EB232005202CBEF600431553 /* InfoWindowView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = InfoWindowView.xib; sourceTree = "<group>"; };
+		EB232007202CD93C00431553 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 		EBED947E202C12F6004188B6 /* Roadbull.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Roadbull.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EBED9481202C12F6004188B6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EBED9483202C12F6004188B6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -74,6 +76,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EB232008202CD93C00431553 /* CoreLocation.framework in Frameworks */,
 				2C72A688D06ED48221F8E554 /* Pods_Roadbull.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -100,6 +103,7 @@
 		7E900EAB7AE5954E85C14F8D /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				EB232007202CD93C00431553 /* CoreLocation.framework */,
 				A903F3C36485C79D28B850CE /* Pods_Roadbull.framework */,
 				F2B1362650497AC4655AFCE5 /* Pods_RoadbullTests.framework */,
 				DEF73FE9B1490489A542E422 /* Pods_RoadbullUITests.framework */,

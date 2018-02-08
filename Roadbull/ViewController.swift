@@ -8,17 +8,32 @@
 
 import UIKit
 import GoogleMaps
+import CoreLocation
 
 class ViewController: UIViewController {
 
     @IBOutlet weak var mapView: GMSMapView!
     
     fileprivate var polyline: GMSPolyline?
+    fileprivate var currentLocation: CLLocationCoordinate2D!
+    fileprivate var locationManager = CLLocationManager()
     
     override func viewDidLoad() {
         super.viewDidLoad()
         
         mapView.delegate = self
+        mapView.isMyLocationEnabled = true
+        mapView.settings.myLocationButton = true
+        
+        // Ask for Authorisation from the User.
+        self.locationManager.requestAlwaysAuthorization()
+        // For use in foreground
+        self.locationManager.requestWhenInUseAuthorization()
+        if CLLocationManager.locationServicesEnabled() {
+            locationManager.delegate = self
+            locationManager.desiredAccuracy = kCLLocationAccuracyNearestTenMeters
+            locationManager.startUpdatingLocation()
+        }
         
         cameraZoomToCurrentLocation()
         initialMarkers()
@@ -34,12 +49,32 @@ extension ViewController: GMSMapViewDelegate {
         }
         return infoWindow
     }
+    
+    func mapView(_ mapView: GMSMapView, didTap marker: GMSMarker) -> Bool {
+        routing(source: currentLocation, destination: marker.position, mapView: mapView)
+        return false
+    }
+}
+
+extension ViewController: CLLocationManagerDelegate {
+    func locationManager(_ manager: CLLocationManager, didUpdateLocations locations: [CLLocation]) {
+        if let location = locations.last {
+            let lat = location.coordinate.latitude
+            let lng = location.coordinate.longitude
+            currentLocation = CLLocationCoordinate2D(latitude: lat, longitude: lng)
+            
+            let camera = GMSCameraPosition.camera(withLatitude: lat, longitude: lng, zoom: 15.0)
+            mapView.animate(to: camera)
+        }
+        
+        self.locationManager.stopUpdatingLocation()
+    }
 }
 
 extension ViewController {
     
     fileprivate func cameraZoomToCurrentLocation() {
-        let camera = GMSCameraPosition.camera(withLatitude: 10.79, longitude: 106.68, zoom: 14)
+        let camera = GMSCameraPosition.camera(withLatitude: 10.79, longitude: 106.68, zoom: 14.0)
         mapView.animate(to: camera)
     }
     
@@ -86,7 +121,7 @@ extension ViewController {
         let config = URLSessionConfiguration.default
         let session = URLSession(configuration: config)
         
-        let url = URL(string: "https://maps.googleapis.com/maps/api/directions/json?origin=\(sourceLat),\(sourceLng)&destination=\(destinationLat),\(destinationLng)&key=AIzaSyC-rnrTYHPNYzWTVSBJRfmXX9_-kYi3L5w")!
+        let url = URL(string: "https://maps.googleapis.com/maps/api/directions/json?origin=\(sourceLat),\(sourceLng)&destination=\(destinationLat),\(destinationLng)&sensor=false")!
         
         print(url)
         
@@ -125,7 +160,7 @@ extension ViewController {
         
         let path = GMSPath(fromEncodedPath: polyStr)
         polyline = GMSPolyline(path: path)
-        polyline?.strokeColor = UIColor.black
+        polyline?.strokeColor = UIColor.red
         polyline?.strokeWidth = 2.0
         polyline?.map = mapView
     }

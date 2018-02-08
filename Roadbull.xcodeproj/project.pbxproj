@@ -10,6 +10,9 @@
 		2C72A688D06ED48221F8E554 /* Pods_Roadbull.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A903F3C36485C79D28B850CE /* Pods_Roadbull.framework */; };
 		70162C569BBE4E8CDC041481 /* Pods_RoadbullUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DEF73FE9B1490489A542E422 /* Pods_RoadbullUITests.framework */; };
 		B57CB588E7E7687055036F1F /* Pods_RoadbullTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2B1362650497AC4655AFCE5 /* Pods_RoadbullTests.framework */; };
+		EB231FFB202CA4A200431553 /* Place.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB231FFA202CA4A200431553 /* Place.swift */; };
+		EB232002202CAF8600431553 /* InfoWindowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB232000202CAF8600431553 /* InfoWindowView.swift */; };
+		EB232006202CBEF600431553 /* InfoWindowView.xib in Resources */ = {isa = PBXBuildFile; fileRef = EB232005202CBEF600431553 /* InfoWindowView.xib */; };
 		EBED9482202C12F6004188B6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBED9481202C12F6004188B6 /* AppDelegate.swift */; };
 		EBED9484202C12F6004188B6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBED9483202C12F6004188B6 /* ViewController.swift */; };
 		EBED9487202C12F6004188B6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EBED9485202C12F6004188B6 /* Main.storyboard */; };
@@ -45,6 +48,9 @@
 		BFE6395FF73C2627AA31882A /* Pods-RoadbullTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RoadbullTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RoadbullTests/Pods-RoadbullTests.debug.xcconfig"; sourceTree = "<group>"; };
 		DE8059C59710C09FCF5677ED /* Pods-RoadbullTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RoadbullTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-RoadbullTests/Pods-RoadbullTests.release.xcconfig"; sourceTree = "<group>"; };
 		DEF73FE9B1490489A542E422 /* Pods_RoadbullUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RoadbullUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EB231FFA202CA4A200431553 /* Place.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Place.swift; sourceTree = "<group>"; };
+		EB232000202CAF8600431553 /* InfoWindowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoWindowView.swift; sourceTree = "<group>"; };
+		EB232005202CBEF600431553 /* InfoWindowView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = InfoWindowView.xib; sourceTree = "<group>"; };
 		EBED947E202C12F6004188B6 /* Roadbull.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Roadbull.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EBED9481202C12F6004188B6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EBED9483202C12F6004188B6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -114,6 +120,23 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		EB231FF9202CA49400431553 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				EB231FFA202CA4A200431553 /* Place.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		EB231FFD202CAF4900431553 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				EB232000202CAF8600431553 /* InfoWindowView.swift */,
+				EB232005202CBEF600431553 /* InfoWindowView.xib */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 		EBED9475202C12F6004188B6 = {
 			isa = PBXGroup;
 			children = (
@@ -139,6 +162,8 @@
 		EBED9480202C12F6004188B6 /* Roadbull */ = {
 			isa = PBXGroup;
 			children = (
+				EB231FFD202CAF4900431553 /* Views */,
+				EB231FF9202CA49400431553 /* Model */,
 				EBED9481202C12F6004188B6 /* AppDelegate.swift */,
 				EBED9483202C12F6004188B6 /* ViewController.swift */,
 				EBED9485202C12F6004188B6 /* Main.storyboard */,
@@ -286,6 +311,7 @@
 			files = (
 				EBED948F202C12F6004188B6 /* LaunchScreen.storyboard in Resources */,
 				EBED948C202C12F6004188B6 /* Assets.xcassets in Resources */,
+				EB232006202CBEF600431553 /* InfoWindowView.xib in Resources */,
 				EBED9487202C12F6004188B6 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -464,7 +490,9 @@
 			files = (
 				EBED9484202C12F6004188B6 /* ViewController.swift in Sources */,
 				EBED948A202C12F6004188B6 /* Roadbull.xcdatamodeld in Sources */,
+				EB232002202CAF8600431553 /* InfoWindowView.swift in Sources */,
 				EBED9482202C12F6004188B6 /* AppDelegate.swift in Sources */,
+				EB231FFB202CA4A200431553 /* Place.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

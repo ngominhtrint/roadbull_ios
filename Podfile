@@ -8,6 +8,7 @@ target 'Roadbull' do
   # Pods for Roadbull
   pod 'GoogleMaps'
   pod 'GooglePlaces'
+  pod 'ObjectMapper'
 
   target 'RoadbullTests' do
     inherit! :search_paths

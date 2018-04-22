@@ -14,6 +14,10 @@
 		EB232002202CAF8600431553 /* InfoWindowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB232000202CAF8600431553 /* InfoWindowView.swift */; };
 		EB232006202CBEF600431553 /* InfoWindowView.xib in Resources */ = {isa = PBXBuildFile; fileRef = EB232005202CBEF600431553 /* InfoWindowView.xib */; };
 		EB232008202CD93C00431553 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EB232007202CD93C00431553 /* CoreLocation.framework */; };
+		EBA0F286208C783C0055A6A6 /* Route.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBA0F285208C783C0055A6A6 /* Route.swift */; };
+		EBA0F288208C784E0055A6A6 /* RouteResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBA0F287208C784E0055A6A6 /* RouteResponse.swift */; };
+		EBA0F28A208C79E00055A6A6 /* Leg.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBA0F289208C79E00055A6A6 /* Leg.swift */; };
+		EBA0F28C208C7B540055A6A6 /* Step.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBA0F28B208C7B540055A6A6 /* Step.swift */; };
 		EBED9482202C12F6004188B6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBED9481202C12F6004188B6 /* AppDelegate.swift */; };
 		EBED9484202C12F6004188B6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBED9483202C12F6004188B6 /* ViewController.swift */; };
 		EBED9487202C12F6004188B6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EBED9485202C12F6004188B6 /* Main.storyboard */; };
@@ -53,6 +57,10 @@
 		EB232000202CAF8600431553 /* InfoWindowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoWindowView.swift; sourceTree = "<group>"; };
 		EB232005202CBEF600431553 /* InfoWindowView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = InfoWindowView.xib; sourceTree = "<group>"; };
 		EB232007202CD93C00431553 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		EBA0F285208C783C0055A6A6 /* Route.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Route.swift; sourceTree = "<group>"; };
+		EBA0F287208C784E0055A6A6 /* RouteResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RouteResponse.swift; sourceTree = "<group>"; };
+		EBA0F289208C79E00055A6A6 /* Leg.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Leg.swift; sourceTree = "<group>"; };
+		EBA0F28B208C7B540055A6A6 /* Step.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Step.swift; sourceTree = "<group>"; };
 		EBED947E202C12F6004188B6 /* Roadbull.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Roadbull.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EBED9481202C12F6004188B6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EBED9483202C12F6004188B6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -127,6 +135,7 @@
 		EB231FF9202CA49400431553 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				EBA0F284208C782E0055A6A6 /* Response */,
 				EB231FFA202CA4A200431553 /* Place.swift */,
 			);
 			path = Model;
@@ -139,6 +148,17 @@
 				EB232005202CBEF600431553 /* InfoWindowView.xib */,
 			);
 			path = Views;
+			sourceTree = "<group>";
+		};
+		EBA0F284208C782E0055A6A6 /* Response */ = {
+			isa = PBXGroup;
+			children = (
+				EBA0F285208C783C0055A6A6 /* Route.swift */,
+				EBA0F287208C784E0055A6A6 /* RouteResponse.swift */,
+				EBA0F289208C79E00055A6A6 /* Leg.swift */,
+				EBA0F28B208C7B540055A6A6 /* Step.swift */,
+			);
+			path = Response;
 			sourceTree = "<group>";
 		};
 		EBED9475202C12F6004188B6 = {
@@ -361,9 +381,12 @@
 			files = (
 			);
 			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Roadbull/Pods-Roadbull-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/ObjectMapper/ObjectMapper.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ObjectMapper.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -445,7 +468,8 @@
 			);
 			name = "[CP] Copy Pods Resources";
 			outputPaths = (
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GoogleMaps.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GooglePlaces.bundle",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -494,9 +518,13 @@
 			files = (
 				EBED9484202C12F6004188B6 /* ViewController.swift in Sources */,
 				EBED948A202C12F6004188B6 /* Roadbull.xcdatamodeld in Sources */,
+				EBA0F28C208C7B540055A6A6 /* Step.swift in Sources */,
 				EB232002202CAF8600431553 /* InfoWindowView.swift in Sources */,
+				EBA0F286208C783C0055A6A6 /* Route.swift in Sources */,
+				EBA0F28A208C79E00055A6A6 /* Leg.swift in Sources */,
 				EBED9482202C12F6004188B6 /* AppDelegate.swift in Sources */,
 				EB231FFB202CA4A200431553 /* Place.swift in Sources */,
+				EBA0F288208C784E0055A6A6 /* RouteResponse.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -664,6 +692,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = QWZQFWGZMG;
 				INFOPLIST_FILE = Roadbull/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.tringo.roadbull;
@@ -679,6 +708,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = QWZQFWGZMG;
 				INFOPLIST_FILE = Roadbull/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.tringo.roadbull;

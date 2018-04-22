@@ -6,15 +6,18 @@ PODS:
     - GoogleMaps/Base
   - GooglePlaces (2.5.0):
     - GoogleMaps/Base (= 2.5.0)
+  - ObjectMapper (3.1.0)
 
 DEPENDENCIES:
   - GoogleMaps
   - GooglePlaces
+  - ObjectMapper
 
 SPEC CHECKSUMS:
   GoogleMaps: c087b8e5dfe87ca6ebf59adb9b4894a4146bec4f
   GooglePlaces: dd70d9d71ea1c7944846afe67de3712c99b30a77
+  ObjectMapper: 20505058f54e5c3ca69e1d6de9897d152a5369a6
 
-PODFILE CHECKSUM: 3564201e71485c2f4a96ec785ede71da60f2b805
+PODFILE CHECKSUM: e66619132067858be05b67f6e454116c1466408d
 
-COCOAPODS: 1.3.1
+COCOAPODS: 1.4.0

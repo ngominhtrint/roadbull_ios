@@ -8,66 +8,132 @@
 
 /* Begin PBXBuildFile section */
 		0249B014003B23345DF44D668A06A99D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		58B0A942214B9D5D5B769D2856037CF6 /* Pods-RoadbullUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F99DDA82A730203D0572976C2872192 /* Pods-RoadbullUITests-dummy.m */; };
-		59822983B8C65DA9ECABCA26F362D25C /* Pods-RoadbullUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F0F0178B3F3D425668B6FE44BF593B8E /* Pods-RoadbullUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		8D8F2AB5DADA408C4F4C99E0C0492564 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		CD5B8A4BF767CB7D94835C4CDF118F33 /* Pods-RoadbullTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A13854BAE308B7B80D620EEF747981D6 /* Pods-RoadbullTests-dummy.m */; };
+		0F981C56836FE34E921BC7253826A170 /* CustomDateFormatTransform.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E976CA32B8C1838D7160CE9178B35D4 /* CustomDateFormatTransform.swift */; };
+		134859C42E05396F62489E4329ECF6EA /* ToJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3952ADA635C2353761345209CFE4EEF7 /* ToJSON.swift */; };
+		1894026C296B8A77711607C98ED40C86 /* IntegerOperators.swift in Sources */ = {isa = PBXBuildFile; fileRef = 982E986712456069504E8D3289F03BAD /* IntegerOperators.swift */; };
+		18E9B5E96557418567FCB7DCC559299F /* TransformOperators.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD43D5D4094C81EF5B2C78E669491ADC /* TransformOperators.swift */; };
+		194858D10B9B1DD9FFEFBE4EAA0700F3 /* TransformOf.swift in Sources */ = {isa = PBXBuildFile; fileRef = A93A400860E106481B995565651C5902 /* TransformOf.swift */; };
+		255C4ADB2BD82FEEF86A3D4D43F31C63 /* ISO8601DateTransform.swift in Sources */ = {isa = PBXBuildFile; fileRef = 556FE225DCCC0AAE9F59056B9E1C28D0 /* ISO8601DateTransform.swift */; };
+		27156C9092B7A82E24CF96312A941150 /* TransformType.swift in Sources */ = {isa = PBXBuildFile; fileRef = E66BFFC0E644D0A1649D8CC751EAD9DB /* TransformType.swift */; };
+		2D89AB26203628C04B3E87D045525701 /* MapError.swift in Sources */ = {isa = PBXBuildFile; fileRef = C571E890193FCD51E6412998FCB16482 /* MapError.swift */; };
+		3913806A2C50BED228D8EDF2EE9B977E /* Pods-Roadbull-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A3C4D4F220EFACA351B2AC2E1D5D616 /* Pods-Roadbull-dummy.m */; };
+		4215D7313CE6E738AAD80E9FEC6C60CC /* DateFormatterTransform.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEAFFAE5D44F06C5358C9D054E3820BC /* DateFormatterTransform.swift */; };
+		436D260727F4DD306F098AE003DC4E99 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		551FB4DF0E5072BB849BB4FCE74F7361 /* HexColorTransform.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45E31BDDBDBC68C658A3117AC8F6C4F9 /* HexColorTransform.swift */; };
+		58B0A942214B9D5D5B769D2856037CF6 /* Pods-RoadbullUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 95915536D7C42A9F4B30C2DA0F196233 /* Pods-RoadbullUITests-dummy.m */; };
+		59109302859941E04E87DC7044DFEE89 /* ObjectMapper-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 83E03FF07ED3EC5E029B5E0F1E7BBFB3 /* ObjectMapper-dummy.m */; };
+		59822983B8C65DA9ECABCA26F362D25C /* Pods-RoadbullUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 06AFF1724F56BEF18B5F5A45B5605A28 /* Pods-RoadbullUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		67A4D8A24085ADC44A65404E73461B43 /* Mappable.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1D1D7991B07FDB387EC2879E27AAB4F /* Mappable.swift */; };
+		6C2FE27FDBD6621AAB57E4082419C347 /* NSDecimalNumberTransform.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63910687D7D147C742CD067F7AC15D5C /* NSDecimalNumberTransform.swift */; };
+		6D4B34B64BCAFD9BF3B96A42E011C091 /* Pods-Roadbull-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7F80AB74E2C1FB7305D432AAAF0B0B66 /* Pods-Roadbull-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		706840688BA7E9BDE5F4DD2C0E558835 /* EnumOperators.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7400245338DE2815ECC12416B1A0154 /* EnumOperators.swift */; };
+		77CA4CD47748C0B69982A6D82C2799D5 /* Mapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30AD67642908AA02574738BA856DD3D3 /* Mapper.swift */; };
+		78C198E9BB56FB59BD494C8FA759645B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		A128DBCF691E0F4D2AC3EEA36F7BD562 /* ObjectMapper-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F38FB9D7D5DE478859E311731E04D2DB /* ObjectMapper-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A5BFC49ED41BC416BEBF4772517AB741 /* Map.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53CA157E8C4EAE1B3CBDA7328E8D6017 /* Map.swift */; };
+		B2EFEFFB34D517F8E9A203B674AEBD13 /* DictionaryTransform.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10C083CAB04B2A3E9FEB195568FDFD78 /* DictionaryTransform.swift */; };
+		B9C39C539A810D1958AEEF1AEC0FD75C /* ImmutableMappable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E9B6D6847686231E2CE5D1E43FA5178 /* ImmutableMappable.swift */; };
+		CD5B8A4BF767CB7D94835C4CDF118F33 /* Pods-RoadbullTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 77DF7F1A455491E526537EA289322B36 /* Pods-RoadbullTests-dummy.m */; };
 		D50A8BF7CF210B17F0DE406AC9C40777 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		DBAB0F73D8B9D6C7CDF237DF8E8AC31C /* Pods-RoadbullTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8C1AD2112B460E2903BE129245CB36AF /* Pods-RoadbullTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		EC1A3827F4B97AE43954B5B3BFE00BAF /* Pods-Roadbull-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 85E40372299741A22F3BDCAC24482E6E /* Pods-Roadbull-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		FE6E733036D25B545AA3EEC4D1F1A20B /* Pods-Roadbull-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 28E476A557A96D357F8CF5952106FF1B /* Pods-Roadbull-dummy.m */; };
+		DB87FF0D3B17ABB5452FDD4D70C9A84D /* FromJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = E362E5036CEA14D09381465EEE17981D /* FromJSON.swift */; };
+		DBAB0F73D8B9D6C7CDF237DF8E8AC31C /* Pods-RoadbullTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 16C421F9286755CBE530901CCEEEC426 /* Pods-RoadbullTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EA67527CAF7ED571C8A84B66DDD70FBE /* Operators.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF893466ACFAC2F8E46A06328233950C /* Operators.swift */; };
+		EC1A896625476730D64BF9645624BBAD /* DataTransform.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D72701165A33A8F94FFB6105FF5B307 /* DataTransform.swift */; };
+		F527B0A072DFD754B471E4C1F6B16C48 /* URLTransform.swift in Sources */ = {isa = PBXBuildFile; fileRef = F307474E02EE005F99FC090B996179EA /* URLTransform.swift */; };
+		F9B63BDA169DB048D41DA8395261AEBA /* DateTransform.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048B2656E800F185D076A325B9020524 /* DateTransform.swift */; };
+		FCE734BD83FB03D3DC9F8AA843ECD73B /* EnumTransform.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D740E5B5DEC6439BCD14FD3814B1531 /* EnumTransform.swift */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		E72884B01525BA4725274555CDCCA88F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CD6C9FB6B052E1CF663F8A56041EA163;
+			remoteInfo = ObjectMapper;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
-		046D640EFB33DB8242787CFF9888383D /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		08F1229163C7F5E61C7C4B361510F11C /* GoogleMaps.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleMaps.framework; path = Maps/Frameworks/GoogleMaps.framework; sourceTree = "<group>"; };
-		1175ED71CDF05438B9524D8C0058BFCA /* Pods-RoadbullTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-RoadbullTests.modulemap"; sourceTree = "<group>"; };
-		1C6200385182862E9168588E60B1CD37 /* GoogleMaps.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = GoogleMaps.bundle; path = Maps/Frameworks/GoogleMaps.framework/Resources/GoogleMaps.bundle; sourceTree = "<group>"; };
-		1F99DDA82A730203D0572976C2872192 /* Pods-RoadbullUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-RoadbullUITests-dummy.m"; sourceTree = "<group>"; };
-		1FB4A06907C70206562D923B8196B15C /* Pods-Roadbull-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Roadbull-frameworks.sh"; sourceTree = "<group>"; };
-		2158DA32E7A9CCD6A3A9FE780E8F33A2 /* Pods-Roadbull-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Roadbull-resources.sh"; sourceTree = "<group>"; };
-		28E476A557A96D357F8CF5952106FF1B /* Pods-Roadbull-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Roadbull-dummy.m"; sourceTree = "<group>"; };
-		2AABB07F4F98D9A4E8497D9978200424 /* Pods-RoadbullTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RoadbullTests.release.xcconfig"; sourceTree = "<group>"; };
-		2ABB24DBE3984E78B775EBB40EEDE48C /* Pods-RoadbullUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-RoadbullUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		3D202FC5C730992CA759714B0F0EFCA6 /* Pods-RoadbullTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-RoadbullTests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		3EE77FC08F5E240B914082CDEA725CCE /* Pods_RoadbullUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_RoadbullUITests.framework; path = "Pods-RoadbullUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		4966C1994996AD7C170066FCE5E3D258 /* Pods-Roadbull.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Roadbull.release.xcconfig"; sourceTree = "<group>"; };
-		5A78722605E4C6800589C5C93E76E2E0 /* Pods-RoadbullUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RoadbullUITests.release.xcconfig"; sourceTree = "<group>"; };
-		65958B608696878A028C6BE825C44306 /* Pods-Roadbull.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Roadbull.debug.xcconfig"; sourceTree = "<group>"; };
+		04507D0DB61C5B5B188A10266085159B /* ObjectMapper-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ObjectMapper-prefix.pch"; sourceTree = "<group>"; };
+		048B2656E800F185D076A325B9020524 /* DateTransform.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DateTransform.swift; path = Sources/DateTransform.swift; sourceTree = "<group>"; };
+		06AFF1724F56BEF18B5F5A45B5605A28 /* Pods-RoadbullUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-RoadbullUITests-umbrella.h"; sourceTree = "<group>"; };
+		0BE394EFBA8A629AB953AD00DC370A0C /* Pods_Roadbull.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Roadbull.framework; path = "Pods-Roadbull.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0D8F293C5FB554841E12AF31E1BE3D52 /* Pods-RoadbullTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-RoadbullTests-frameworks.sh"; sourceTree = "<group>"; };
+		10C083CAB04B2A3E9FEB195568FDFD78 /* DictionaryTransform.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DictionaryTransform.swift; path = Sources/DictionaryTransform.swift; sourceTree = "<group>"; };
+		16C421F9286755CBE530901CCEEEC426 /* Pods-RoadbullTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-RoadbullTests-umbrella.h"; sourceTree = "<group>"; };
+		16DE90B2EEA7CBC7CE0314E36D7D2AA6 /* GooglePlaces.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GooglePlaces.framework; path = Frameworks/GooglePlaces.framework; sourceTree = "<group>"; };
+		17B3B72DA5B76ABAD5DB5047F29D4136 /* Pods-RoadbullTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-RoadbullTests.modulemap"; sourceTree = "<group>"; };
+		17CE1AF57622D0EEC2DBB7A83CF4695E /* Pods-RoadbullUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-RoadbullUITests.modulemap"; sourceTree = "<group>"; };
+		1E976CA32B8C1838D7160CE9178B35D4 /* CustomDateFormatTransform.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CustomDateFormatTransform.swift; path = Sources/CustomDateFormatTransform.swift; sourceTree = "<group>"; };
+		2288F9CC4D1204CE17A65697AF8F9075 /* Pods-RoadbullUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RoadbullUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		232D0BFDCAA8C55E7AF5555FAF7B4BF6 /* ObjectMapper.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = ObjectMapper.framework; path = ObjectMapper.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		24BB2225E5ECEDA5C17CE6E17C5B48B8 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2DB9B0B9D2ED932F3AFCD0BA651110BB /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		30AD67642908AA02574738BA856DD3D3 /* Mapper.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Mapper.swift; path = Sources/Mapper.swift; sourceTree = "<group>"; };
+		35D9EB5176D0DCBA05C40CFADDD0F753 /* Pods-Roadbull-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Roadbull-frameworks.sh"; sourceTree = "<group>"; };
+		3952ADA635C2353761345209CFE4EEF7 /* ToJSON.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ToJSON.swift; path = Sources/ToJSON.swift; sourceTree = "<group>"; };
+		45E31BDDBDBC68C658A3117AC8F6C4F9 /* HexColorTransform.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HexColorTransform.swift; path = Sources/HexColorTransform.swift; sourceTree = "<group>"; };
+		53CA157E8C4EAE1B3CBDA7328E8D6017 /* Map.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Map.swift; path = Sources/Map.swift; sourceTree = "<group>"; };
+		556FE225DCCC0AAE9F59056B9E1C28D0 /* ISO8601DateTransform.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ISO8601DateTransform.swift; path = Sources/ISO8601DateTransform.swift; sourceTree = "<group>"; };
+		562F333752295E6F8696102E7056D902 /* Pods-RoadbullUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-RoadbullUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		5A3C4D4F220EFACA351B2AC2E1D5D616 /* Pods-Roadbull-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Roadbull-dummy.m"; sourceTree = "<group>"; };
+		5D740E5B5DEC6439BCD14FD3814B1531 /* EnumTransform.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = EnumTransform.swift; path = Sources/EnumTransform.swift; sourceTree = "<group>"; };
+		63910687D7D147C742CD067F7AC15D5C /* NSDecimalNumberTransform.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NSDecimalNumberTransform.swift; path = Sources/NSDecimalNumberTransform.swift; sourceTree = "<group>"; };
+		659DC8EC0139A8871124CE68772487B5 /* Pods-Roadbull-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Roadbull-resources.sh"; sourceTree = "<group>"; };
 		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		6AB55C3F7683B9BDB8329CF8D7A338A7 /* Pods_Roadbull.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Roadbull.framework; path = "Pods-Roadbull.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		70324FDF1FBB41BEA92DE76E00BD3E96 /* GooglePlaces.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GooglePlaces.framework; path = Frameworks/GooglePlaces.framework; sourceTree = "<group>"; };
-		785252644DF9CC51D5B53694CFF3FB2B /* Pods-Roadbull.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-Roadbull.modulemap"; sourceTree = "<group>"; };
-		78BBBB23FD80E74023313AC02DEAB1C1 /* Pods-RoadbullUITests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-RoadbullUITests-resources.sh"; sourceTree = "<group>"; };
-		7A547131319DD5C8E01BE766A7D800FE /* Pods-Roadbull-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Roadbull-acknowledgements.plist"; sourceTree = "<group>"; };
-		85E40372299741A22F3BDCAC24482E6E /* Pods-Roadbull-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Roadbull-umbrella.h"; sourceTree = "<group>"; };
-		8711CD546E778564AF92A339E9F8AA1C /* Pods-RoadbullUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-RoadbullUITests-acknowledgements.plist"; sourceTree = "<group>"; };
-		8C1AD2112B460E2903BE129245CB36AF /* Pods-RoadbullTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-RoadbullTests-umbrella.h"; sourceTree = "<group>"; };
-		9252BC71EBF76C9259B34FA8AFA897AE /* Pods-RoadbullTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RoadbullTests.debug.xcconfig"; sourceTree = "<group>"; };
+		6E9B6D6847686231E2CE5D1E43FA5178 /* ImmutableMappable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ImmutableMappable.swift; path = Sources/ImmutableMappable.swift; sourceTree = "<group>"; };
+		74360F2AEED9EEE85541B383237709DC /* Pods-RoadbullTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RoadbullTests.debug.xcconfig"; sourceTree = "<group>"; };
+		75D9C2DA298C8643D561437105BF1665 /* GoogleMapsCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleMapsCore.framework; path = Maps/Frameworks/GoogleMapsCore.framework; sourceTree = "<group>"; };
+		77DF7F1A455491E526537EA289322B36 /* Pods-RoadbullTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-RoadbullTests-dummy.m"; sourceTree = "<group>"; };
+		7D72701165A33A8F94FFB6105FF5B307 /* DataTransform.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DataTransform.swift; path = Sources/DataTransform.swift; sourceTree = "<group>"; };
+		7F80AB74E2C1FB7305D432AAAF0B0B66 /* Pods-Roadbull-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Roadbull-umbrella.h"; sourceTree = "<group>"; };
+		8005193F43536B9CB76AD71674ECEB0C /* GoogleMaps.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = GoogleMaps.bundle; path = Maps/Frameworks/GoogleMaps.framework/Resources/GoogleMaps.bundle; sourceTree = "<group>"; };
+		80299396999389F73E20F01BA262C7F8 /* Pods-Roadbull.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Roadbull.modulemap"; sourceTree = "<group>"; };
+		80E0998E636A131D984E5816AA47099B /* Pods-RoadbullTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-RoadbullTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		83E03FF07ED3EC5E029B5E0F1E7BBFB3 /* ObjectMapper-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ObjectMapper-dummy.m"; sourceTree = "<group>"; };
+		86ABE9B5E91727C7BEB5FD4524B2D3F8 /* GooglePlaces.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = GooglePlaces.bundle; path = Frameworks/GooglePlaces.framework/Resources/GooglePlaces.bundle; sourceTree = "<group>"; };
+		92703DECD05582F47B2C0B7EC711DC52 /* GoogleMapsBase.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleMapsBase.framework; path = Base/Frameworks/GoogleMapsBase.framework; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		A049DC9CA74C0D5AD4D2A75F138C6C4D /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		A13854BAE308B7B80D620EEF747981D6 /* Pods-RoadbullTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-RoadbullTests-dummy.m"; sourceTree = "<group>"; };
-		A65ED65616C5861E2765BDC60AAAF910 /* GooglePlaces.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = GooglePlaces.bundle; path = Frameworks/GooglePlaces.framework/Resources/GooglePlaces.bundle; sourceTree = "<group>"; };
-		A92DFDA40F47C0FD221B2872C31099A1 /* GoogleMapsCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleMapsCore.framework; path = Maps/Frameworks/GoogleMapsCore.framework; sourceTree = "<group>"; };
-		AC0576C00F28D391A8085CB0769FD4EC /* Pods-RoadbullUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RoadbullUITests.debug.xcconfig"; sourceTree = "<group>"; };
-		B22C69ADCE7C9D529F11B17B4EF5E065 /* GoogleMapsBase.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleMapsBase.framework; path = Base/Frameworks/GoogleMapsBase.framework; sourceTree = "<group>"; };
-		C1CBE832B6578D43CD4E561FCB665749 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		D3E1E314EBAA7687731A637DB80AE230 /* Pods-RoadbullTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-RoadbullTests-acknowledgements.plist"; sourceTree = "<group>"; };
-		D6C510FC31FBEDB8BD964780EB6E9C66 /* Pods-Roadbull-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Roadbull-acknowledgements.markdown"; sourceTree = "<group>"; };
-		D9F5426BEA6461A855EAF9541FD787AB /* Pods-RoadbullTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-RoadbullTests-resources.sh"; sourceTree = "<group>"; };
-		DD1FF27D82EE74E66A7EDC4315372E21 /* Pods-RoadbullTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-RoadbullTests-frameworks.sh"; sourceTree = "<group>"; };
-		EC68C6C0E646D091B4C0C971069A4998 /* Pods-RoadbullUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-RoadbullUITests-frameworks.sh"; sourceTree = "<group>"; };
-		F052D8DAAF83E026F669942D15B7EB1D /* Pods-RoadbullUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-RoadbullUITests.modulemap"; sourceTree = "<group>"; };
-		F0F0178B3F3D425668B6FE44BF593B8E /* Pods-RoadbullUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-RoadbullUITests-umbrella.h"; sourceTree = "<group>"; };
-		FF2AF3871E647ABA24BE3A147E3C82A4 /* Pods_RoadbullTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_RoadbullTests.framework; path = "Pods-RoadbullTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		95915536D7C42A9F4B30C2DA0F196233 /* Pods-RoadbullUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-RoadbullUITests-dummy.m"; sourceTree = "<group>"; };
+		982E986712456069504E8D3289F03BAD /* IntegerOperators.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = IntegerOperators.swift; path = Sources/IntegerOperators.swift; sourceTree = "<group>"; };
+		9850AF6D30C3166850B51B7EB289DA8B /* Pods_RoadbullUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_RoadbullUITests.framework; path = "Pods-RoadbullUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9CB5F9AF26EBA2108EE5B000B1A173FA /* Pods-RoadbullUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-RoadbullUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		9F180413A493F218C854D678BB8B7363 /* Pods-Roadbull-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Roadbull-acknowledgements.plist"; sourceTree = "<group>"; };
+		A93A400860E106481B995565651C5902 /* TransformOf.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TransformOf.swift; path = Sources/TransformOf.swift; sourceTree = "<group>"; };
+		AD30F9CC69A63135A0833C19773C8163 /* ObjectMapper.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ObjectMapper.xcconfig; sourceTree = "<group>"; };
+		AD43D5D4094C81EF5B2C78E669491ADC /* TransformOperators.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TransformOperators.swift; path = Sources/TransformOperators.swift; sourceTree = "<group>"; };
+		B0509A228B79E4C9E75D6B801BCB31CD /* Pods-RoadbullTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RoadbullTests.release.xcconfig"; sourceTree = "<group>"; };
+		BDBD316A76466B0FFBA5E6141F50280B /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BEAFFAE5D44F06C5358C9D054E3820BC /* DateFormatterTransform.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DateFormatterTransform.swift; path = Sources/DateFormatterTransform.swift; sourceTree = "<group>"; };
+		C078D8D02AD55D97E8C984CB6824D758 /* Pods-RoadbullTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-RoadbullTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		C20B10730D1F7F9E6DD25A82AD6D4693 /* ObjectMapper.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = ObjectMapper.modulemap; sourceTree = "<group>"; };
+		C571E890193FCD51E6412998FCB16482 /* MapError.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MapError.swift; path = Sources/MapError.swift; sourceTree = "<group>"; };
+		C876CB92D7B1BF68B5560C01BB02B055 /* GoogleMaps.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleMaps.framework; path = Maps/Frameworks/GoogleMaps.framework; sourceTree = "<group>"; };
+		CB0B5A996C2EC665EE206F93BA1B6555 /* Pods-Roadbull.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Roadbull.release.xcconfig"; sourceTree = "<group>"; };
+		CF25413F675465EEB4337B354C213DD6 /* Pods-Roadbull.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Roadbull.debug.xcconfig"; sourceTree = "<group>"; };
+		CF893466ACFAC2F8E46A06328233950C /* Operators.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Operators.swift; path = Sources/Operators.swift; sourceTree = "<group>"; };
+		D1D1D7991B07FDB387EC2879E27AAB4F /* Mappable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Mappable.swift; path = Sources/Mappable.swift; sourceTree = "<group>"; };
+		DE69F099CFAB84FF049FB69D1BD0B5F0 /* Pods-RoadbullUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-RoadbullUITests-frameworks.sh"; sourceTree = "<group>"; };
+		E2892113BC61DEA0651F558F29E81DAD /* Pods-RoadbullTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-RoadbullTests-resources.sh"; sourceTree = "<group>"; };
+		E362E5036CEA14D09381465EEE17981D /* FromJSON.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FromJSON.swift; path = Sources/FromJSON.swift; sourceTree = "<group>"; };
+		E66BFFC0E644D0A1649D8CC751EAD9DB /* TransformType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TransformType.swift; path = Sources/TransformType.swift; sourceTree = "<group>"; };
+		E7400245338DE2815ECC12416B1A0154 /* EnumOperators.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = EnumOperators.swift; path = Sources/EnumOperators.swift; sourceTree = "<group>"; };
+		E8255915C74A075EAE7ECDBB309AB335 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E97600B0775807B19A75C02412BE329E /* Pods-RoadbullUITests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-RoadbullUITests-resources.sh"; sourceTree = "<group>"; };
+		EE0929037E83A0BD2AF42D6C216656DC /* Pods-Roadbull-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Roadbull-acknowledgements.markdown"; sourceTree = "<group>"; };
+		F307474E02EE005F99FC090B996179EA /* URLTransform.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = URLTransform.swift; path = Sources/URLTransform.swift; sourceTree = "<group>"; };
+		F3562BA251B17E764C18D9E65E4B18E9 /* Pods-RoadbullUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RoadbullUITests.release.xcconfig"; sourceTree = "<group>"; };
+		F38FB9D7D5DE478859E311731E04D2DB /* ObjectMapper-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ObjectMapper-umbrella.h"; sourceTree = "<group>"; };
+		F94197D4E024F80528ABCDD6F8B2B144 /* Pods_RoadbullTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_RoadbullTests.framework; path = "Pods-RoadbullTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		89A700403B73E19BBEFCB792A01C0AFF /* Frameworks */ = {
+		5A8F10B3B924F7ED49BFE5BC9A3C02A8 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8D8F2AB5DADA408C4F4C99E0C0492564 /* Foundation.framework in Frameworks */,
+				436D260727F4DD306F098AE003DC4E99 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -76,6 +142,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				D50A8BF7CF210B17F0DE406AC9C40777 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C4F4068871A73EB6FBE8042AF2063595 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				78C198E9BB56FB59BD494C8FA759645B /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -90,92 +164,160 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		00B63D9B3EBC8ECAFD5DA8C24F1A42DF /* GooglePlaces */ = {
+		00DBF7461393372CE2C0DEDCDFF4946D /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				475420FA59EFC8377CF994A338979247 /* Frameworks */,
-				09DB508F39D8BE758EA4A7B9047268E9 /* Resources */,
+				8005193F43536B9CB76AD71674ECEB0C /* GoogleMaps.bundle */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		15FAA9CB70FACCA06BD6CCF1C714F68B /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				86ABE9B5E91727C7BEB5FD4524B2D3F8 /* GooglePlaces.bundle */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		180D27B42B33DB935B10AC22459309B1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				232D0BFDCAA8C55E7AF5555FAF7B4BF6 /* ObjectMapper.framework */,
+				0BE394EFBA8A629AB953AD00DC370A0C /* Pods_Roadbull.framework */,
+				F94197D4E024F80528ABCDD6F8B2B144 /* Pods_RoadbullTests.framework */,
+				9850AF6D30C3166850B51B7EB289DA8B /* Pods_RoadbullUITests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1A52DC28ECEDEF92447A68301E17FB20 /* Pods-Roadbull */ = {
+			isa = PBXGroup;
+			children = (
+				E8255915C74A075EAE7ECDBB309AB335 /* Info.plist */,
+				80299396999389F73E20F01BA262C7F8 /* Pods-Roadbull.modulemap */,
+				EE0929037E83A0BD2AF42D6C216656DC /* Pods-Roadbull-acknowledgements.markdown */,
+				9F180413A493F218C854D678BB8B7363 /* Pods-Roadbull-acknowledgements.plist */,
+				5A3C4D4F220EFACA351B2AC2E1D5D616 /* Pods-Roadbull-dummy.m */,
+				35D9EB5176D0DCBA05C40CFADDD0F753 /* Pods-Roadbull-frameworks.sh */,
+				659DC8EC0139A8871124CE68772487B5 /* Pods-Roadbull-resources.sh */,
+				7F80AB74E2C1FB7305D432AAAF0B0B66 /* Pods-Roadbull-umbrella.h */,
+				CF25413F675465EEB4337B354C213DD6 /* Pods-Roadbull.debug.xcconfig */,
+				CB0B5A996C2EC665EE206F93BA1B6555 /* Pods-Roadbull.release.xcconfig */,
+			);
+			name = "Pods-Roadbull";
+			path = "Target Support Files/Pods-Roadbull";
+			sourceTree = "<group>";
+		};
+		23DE67F43EB508B3DEB3154C6AAF8E81 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				16DE90B2EEA7CBC7CE0314E36D7D2AA6 /* GooglePlaces.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		242479B0DE3B51D1FF6AB25A813BDD98 /* Pods-RoadbullUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2DB9B0B9D2ED932F3AFCD0BA651110BB /* Info.plist */,
+				17CE1AF57622D0EEC2DBB7A83CF4695E /* Pods-RoadbullUITests.modulemap */,
+				562F333752295E6F8696102E7056D902 /* Pods-RoadbullUITests-acknowledgements.markdown */,
+				9CB5F9AF26EBA2108EE5B000B1A173FA /* Pods-RoadbullUITests-acknowledgements.plist */,
+				95915536D7C42A9F4B30C2DA0F196233 /* Pods-RoadbullUITests-dummy.m */,
+				DE69F099CFAB84FF049FB69D1BD0B5F0 /* Pods-RoadbullUITests-frameworks.sh */,
+				E97600B0775807B19A75C02412BE329E /* Pods-RoadbullUITests-resources.sh */,
+				06AFF1724F56BEF18B5F5A45B5605A28 /* Pods-RoadbullUITests-umbrella.h */,
+				2288F9CC4D1204CE17A65697AF8F9075 /* Pods-RoadbullUITests.debug.xcconfig */,
+				F3562BA251B17E764C18D9E65E4B18E9 /* Pods-RoadbullUITests.release.xcconfig */,
+			);
+			name = "Pods-RoadbullUITests";
+			path = "Target Support Files/Pods-RoadbullUITests";
+			sourceTree = "<group>";
+		};
+		2535DEEC05F0EAAC5F1682DDC6565C0C /* GooglePlaces */ = {
+			isa = PBXGroup;
+			children = (
+				23DE67F43EB508B3DEB3154C6AAF8E81 /* Frameworks */,
+				15FAA9CB70FACCA06BD6CCF1C714F68B /* Resources */,
 			);
 			name = GooglePlaces;
 			path = GooglePlaces;
 			sourceTree = "<group>";
 		};
-		09DB508F39D8BE758EA4A7B9047268E9 /* Resources */ = {
+		2710A433EB5BAB66426B2654DCC383D5 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				A65ED65616C5861E2765BDC60AAAF910 /* GooglePlaces.bundle */,
+				BDBD316A76466B0FFBA5E6141F50280B /* Info.plist */,
+				C20B10730D1F7F9E6DD25A82AD6D4693 /* ObjectMapper.modulemap */,
+				AD30F9CC69A63135A0833C19773C8163 /* ObjectMapper.xcconfig */,
+				83E03FF07ED3EC5E029B5E0F1E7BBFB3 /* ObjectMapper-dummy.m */,
+				04507D0DB61C5B5B188A10266085159B /* ObjectMapper-prefix.pch */,
+				F38FB9D7D5DE478859E311731E04D2DB /* ObjectMapper-umbrella.h */,
 			);
-			name = Resources;
+			name = "Support Files";
+			path = "../Target Support Files/ObjectMapper";
 			sourceTree = "<group>";
 		};
-		26C94CF6FBD559155351548F2127E7DB /* GoogleMaps */ = {
+		2CAF997519F40E2939F70A1712C86508 /* GoogleMaps */ = {
 			isa = PBXGroup;
 			children = (
-				B2F22323EA3B1ADB4F96376E3F709A68 /* Base */,
-				488E301C4ACDDA928635C4886F5F6158 /* Maps */,
+				D55680A2FEB52FB4153015455BF49FCE /* Base */,
+				2CFD393BF4DC0AD05CEEE30D5E3383E3 /* Maps */,
 			);
 			name = GoogleMaps;
 			path = GoogleMaps;
 			sourceTree = "<group>";
 		};
-		343584E22C57489C672A8E6F731CB43A /* Resources */ = {
+		2CFD393BF4DC0AD05CEEE30D5E3383E3 /* Maps */ = {
 			isa = PBXGroup;
 			children = (
-				1C6200385182862E9168588E60B1CD37 /* GoogleMaps.bundle */,
-			);
-			name = Resources;
-			sourceTree = "<group>";
-		};
-		385FA015FFB9210F372AB1078B856AAB /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				26C94CF6FBD559155351548F2127E7DB /* GoogleMaps */,
-				00B63D9B3EBC8ECAFD5DA8C24F1A42DF /* GooglePlaces */,
-			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
-		475420FA59EFC8377CF994A338979247 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				70324FDF1FBB41BEA92DE76E00BD3E96 /* GooglePlaces.framework */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		488E301C4ACDDA928635C4886F5F6158 /* Maps */ = {
-			isa = PBXGroup;
-			children = (
-				82CE66B3B7EC3F6274BF43A52FEEAE6E /* Frameworks */,
-				343584E22C57489C672A8E6F731CB43A /* Resources */,
+				D500ADE65DA3D9BC40261E18016B5C98 /* Frameworks */,
+				00DBF7461393372CE2C0DEDCDFF4946D /* Resources */,
 			);
 			name = Maps;
 			sourceTree = "<group>";
 		};
-		4CFA8C2E94378AFFDBA3DF92FBE7E3DC /* Frameworks */ = {
+		351A6A4D8167E5F2639065BD28D1BF55 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				B22C69ADCE7C9D529F11B17B4EF5E065 /* GoogleMapsBase.framework */,
+				2CAF997519F40E2939F70A1712C86508 /* GoogleMaps */,
+				2535DEEC05F0EAAC5F1682DDC6565C0C /* GooglePlaces */,
+				7744278110F62E8808A99010976B5D59 /* ObjectMapper */,
 			);
-			name = Frameworks;
+			name = Pods;
 			sourceTree = "<group>";
 		};
-		59B7B9C391A17C1EFB4CA41D0CD04308 /* Pods-Roadbull */ = {
+		7744278110F62E8808A99010976B5D59 /* ObjectMapper */ = {
 			isa = PBXGroup;
 			children = (
-				A049DC9CA74C0D5AD4D2A75F138C6C4D /* Info.plist */,
-				785252644DF9CC51D5B53694CFF3FB2B /* Pods-Roadbull.modulemap */,
-				D6C510FC31FBEDB8BD964780EB6E9C66 /* Pods-Roadbull-acknowledgements.markdown */,
-				7A547131319DD5C8E01BE766A7D800FE /* Pods-Roadbull-acknowledgements.plist */,
-				28E476A557A96D357F8CF5952106FF1B /* Pods-Roadbull-dummy.m */,
-				1FB4A06907C70206562D923B8196B15C /* Pods-Roadbull-frameworks.sh */,
-				2158DA32E7A9CCD6A3A9FE780E8F33A2 /* Pods-Roadbull-resources.sh */,
-				85E40372299741A22F3BDCAC24482E6E /* Pods-Roadbull-umbrella.h */,
-				65958B608696878A028C6BE825C44306 /* Pods-Roadbull.debug.xcconfig */,
-				4966C1994996AD7C170066FCE5E3D258 /* Pods-Roadbull.release.xcconfig */,
+				1E976CA32B8C1838D7160CE9178B35D4 /* CustomDateFormatTransform.swift */,
+				7D72701165A33A8F94FFB6105FF5B307 /* DataTransform.swift */,
+				BEAFFAE5D44F06C5358C9D054E3820BC /* DateFormatterTransform.swift */,
+				048B2656E800F185D076A325B9020524 /* DateTransform.swift */,
+				10C083CAB04B2A3E9FEB195568FDFD78 /* DictionaryTransform.swift */,
+				E7400245338DE2815ECC12416B1A0154 /* EnumOperators.swift */,
+				5D740E5B5DEC6439BCD14FD3814B1531 /* EnumTransform.swift */,
+				E362E5036CEA14D09381465EEE17981D /* FromJSON.swift */,
+				45E31BDDBDBC68C658A3117AC8F6C4F9 /* HexColorTransform.swift */,
+				6E9B6D6847686231E2CE5D1E43FA5178 /* ImmutableMappable.swift */,
+				982E986712456069504E8D3289F03BAD /* IntegerOperators.swift */,
+				556FE225DCCC0AAE9F59056B9E1C28D0 /* ISO8601DateTransform.swift */,
+				53CA157E8C4EAE1B3CBDA7328E8D6017 /* Map.swift */,
+				C571E890193FCD51E6412998FCB16482 /* MapError.swift */,
+				D1D1D7991B07FDB387EC2879E27AAB4F /* Mappable.swift */,
+				30AD67642908AA02574738BA856DD3D3 /* Mapper.swift */,
+				63910687D7D147C742CD067F7AC15D5C /* NSDecimalNumberTransform.swift */,
+				CF893466ACFAC2F8E46A06328233950C /* Operators.swift */,
+				3952ADA635C2353761345209CFE4EEF7 /* ToJSON.swift */,
+				A93A400860E106481B995565651C5902 /* TransformOf.swift */,
+				AD43D5D4094C81EF5B2C78E669491ADC /* TransformOperators.swift */,
+				E66BFFC0E644D0A1649D8CC751EAD9DB /* TransformType.swift */,
+				F307474E02EE005F99FC090B996179EA /* URLTransform.swift */,
+				2710A433EB5BAB66426B2654DCC383D5 /* Support Files */,
 			);
-			name = "Pods-Roadbull";
-			path = "Target Support Files/Pods-Roadbull";
+			name = ObjectMapper;
+			path = ObjectMapper;
 			sourceTree = "<group>";
 		};
 		7DB346D0F39D3F0E887471402A8071AB = {
@@ -183,37 +325,36 @@
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
 				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
-				385FA015FFB9210F372AB1078B856AAB /* Pods */,
-				967E88AE1CDBACDC311ED182389BE659 /* Products */,
+				351A6A4D8167E5F2639065BD28D1BF55 /* Pods */,
+				180D27B42B33DB935B10AC22459309B1 /* Products */,
 				D3571B2122FB079BAE3F4102C7D56AA6 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		82CE66B3B7EC3F6274BF43A52FEEAE6E /* Frameworks */ = {
+		8A7065765CEADCAFBB6A73C1AC5A53B8 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				08F1229163C7F5E61C7C4B361510F11C /* GoogleMaps.framework */,
-				A92DFDA40F47C0FD221B2872C31099A1 /* GoogleMapsCore.framework */,
+				92703DECD05582F47B2C0B7EC711DC52 /* GoogleMapsBase.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		967E88AE1CDBACDC311ED182389BE659 /* Products */ = {
+		93FE19A42BF8F946DA3A3F4DBDDBD01E /* Pods-RoadbullTests */ = {
 			isa = PBXGroup;
 			children = (
-				6AB55C3F7683B9BDB8329CF8D7A338A7 /* Pods_Roadbull.framework */,
-				FF2AF3871E647ABA24BE3A147E3C82A4 /* Pods_RoadbullTests.framework */,
-				3EE77FC08F5E240B914082CDEA725CCE /* Pods_RoadbullUITests.framework */,
+				24BB2225E5ECEDA5C17CE6E17C5B48B8 /* Info.plist */,
+				17B3B72DA5B76ABAD5DB5047F29D4136 /* Pods-RoadbullTests.modulemap */,
+				C078D8D02AD55D97E8C984CB6824D758 /* Pods-RoadbullTests-acknowledgements.markdown */,
+				80E0998E636A131D984E5816AA47099B /* Pods-RoadbullTests-acknowledgements.plist */,
+				77DF7F1A455491E526537EA289322B36 /* Pods-RoadbullTests-dummy.m */,
+				0D8F293C5FB554841E12AF31E1BE3D52 /* Pods-RoadbullTests-frameworks.sh */,
+				E2892113BC61DEA0651F558F29E81DAD /* Pods-RoadbullTests-resources.sh */,
+				16C421F9286755CBE530901CCEEEC426 /* Pods-RoadbullTests-umbrella.h */,
+				74360F2AEED9EEE85541B383237709DC /* Pods-RoadbullTests.debug.xcconfig */,
+				B0509A228B79E4C9E75D6B801BCB31CD /* Pods-RoadbullTests.release.xcconfig */,
 			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		B2F22323EA3B1ADB4F96376E3F709A68 /* Base */ = {
-			isa = PBXGroup;
-			children = (
-				4CFA8C2E94378AFFDBA3DF92FBE7E3DC /* Frameworks */,
-			);
-			name = Base;
+			name = "Pods-RoadbullTests";
+			path = "Target Support Files/Pods-RoadbullTests";
 			sourceTree = "<group>";
 		};
 		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
@@ -227,9 +368,9 @@
 		D3571B2122FB079BAE3F4102C7D56AA6 /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				59B7B9C391A17C1EFB4CA41D0CD04308 /* Pods-Roadbull */,
-				FFE1505FD4A2596DEFB239857297E7CF /* Pods-RoadbullTests */,
-				F4D6E64B0E2ABE3CC270783853F7AE63 /* Pods-RoadbullUITests */,
+				1A52DC28ECEDEF92447A68301E17FB20 /* Pods-Roadbull */,
+				93FE19A42BF8F946DA3A3F4DBDDBD01E /* Pods-RoadbullTests */,
+				242479B0DE3B51D1FF6AB25A813BDD98 /* Pods-RoadbullUITests */,
 			);
 			name = "Targets Support Files";
 			sourceTree = "<group>";
@@ -242,45 +383,34 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		F4D6E64B0E2ABE3CC270783853F7AE63 /* Pods-RoadbullUITests */ = {
+		D500ADE65DA3D9BC40261E18016B5C98 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				046D640EFB33DB8242787CFF9888383D /* Info.plist */,
-				F052D8DAAF83E026F669942D15B7EB1D /* Pods-RoadbullUITests.modulemap */,
-				2ABB24DBE3984E78B775EBB40EEDE48C /* Pods-RoadbullUITests-acknowledgements.markdown */,
-				8711CD546E778564AF92A339E9F8AA1C /* Pods-RoadbullUITests-acknowledgements.plist */,
-				1F99DDA82A730203D0572976C2872192 /* Pods-RoadbullUITests-dummy.m */,
-				EC68C6C0E646D091B4C0C971069A4998 /* Pods-RoadbullUITests-frameworks.sh */,
-				78BBBB23FD80E74023313AC02DEAB1C1 /* Pods-RoadbullUITests-resources.sh */,
-				F0F0178B3F3D425668B6FE44BF593B8E /* Pods-RoadbullUITests-umbrella.h */,
-				AC0576C00F28D391A8085CB0769FD4EC /* Pods-RoadbullUITests.debug.xcconfig */,
-				5A78722605E4C6800589C5C93E76E2E0 /* Pods-RoadbullUITests.release.xcconfig */,
+				C876CB92D7B1BF68B5560C01BB02B055 /* GoogleMaps.framework */,
+				75D9C2DA298C8643D561437105BF1665 /* GoogleMapsCore.framework */,
 			);
-			name = "Pods-RoadbullUITests";
-			path = "Target Support Files/Pods-RoadbullUITests";
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		FFE1505FD4A2596DEFB239857297E7CF /* Pods-RoadbullTests */ = {
+		D55680A2FEB52FB4153015455BF49FCE /* Base */ = {
 			isa = PBXGroup;
 			children = (
-				C1CBE832B6578D43CD4E561FCB665749 /* Info.plist */,
-				1175ED71CDF05438B9524D8C0058BFCA /* Pods-RoadbullTests.modulemap */,
-				3D202FC5C730992CA759714B0F0EFCA6 /* Pods-RoadbullTests-acknowledgements.markdown */,
-				D3E1E314EBAA7687731A637DB80AE230 /* Pods-RoadbullTests-acknowledgements.plist */,
-				A13854BAE308B7B80D620EEF747981D6 /* Pods-RoadbullTests-dummy.m */,
-				DD1FF27D82EE74E66A7EDC4315372E21 /* Pods-RoadbullTests-frameworks.sh */,
-				D9F5426BEA6461A855EAF9541FD787AB /* Pods-RoadbullTests-resources.sh */,
-				8C1AD2112B460E2903BE129245CB36AF /* Pods-RoadbullTests-umbrella.h */,
-				9252BC71EBF76C9259B34FA8AFA897AE /* Pods-RoadbullTests.debug.xcconfig */,
-				2AABB07F4F98D9A4E8497D9978200424 /* Pods-RoadbullTests.release.xcconfig */,
+				8A7065765CEADCAFBB6A73C1AC5A53B8 /* Frameworks */,
 			);
-			name = "Pods-RoadbullTests";
-			path = "Target Support Files/Pods-RoadbullTests";
+			name = Base;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
+		3B4FF63BBA8D22B93DD528E238E89066 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6D4B34B64BCAFD9BF3B96A42E011C091 /* Pods-Roadbull-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		6AA4AABE8D6487552BCFD69F0A1AEA07 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -297,34 +427,17 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B53F60EEA3EDA4255D353E569E19F738 /* Headers */ = {
+		F57C9456EA5FB7C7D8FC40BACD0F5369 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EC1A3827F4B97AE43954B5B3BFE00BAF /* Pods-Roadbull-umbrella.h in Headers */,
+				A128DBCF691E0F4D2AC3EEA36F7BD562 /* ObjectMapper-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		32BC1263D89DC016B3ABEA67EE608C8E /* Pods-Roadbull */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = D76674B7DDAD47F1CA57CABB183E91DD /* Build configuration list for PBXNativeTarget "Pods-Roadbull" */;
-			buildPhases = (
-				E183D9D729D9C829B09EC6CC27EE49C6 /* Sources */,
-				89A700403B73E19BBEFCB792A01C0AFF /* Frameworks */,
-				B53F60EEA3EDA4255D353E569E19F738 /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = "Pods-Roadbull";
-			productName = "Pods-Roadbull";
-			productReference = 6AB55C3F7683B9BDB8329CF8D7A338A7 /* Pods_Roadbull.framework */;
-			productType = "com.apple.product-type.framework";
-		};
 		7205B81D62D3CB30322273D2827F3654 /* Pods-RoadbullTests */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = A05AC7CE5CCDCB5434116A262C6DC854 /* Build configuration list for PBXNativeTarget "Pods-RoadbullTests" */;
@@ -339,7 +452,24 @@
 			);
 			name = "Pods-RoadbullTests";
 			productName = "Pods-RoadbullTests";
-			productReference = FF2AF3871E647ABA24BE3A147E3C82A4 /* Pods_RoadbullTests.framework */;
+			productReference = F94197D4E024F80528ABCDD6F8B2B144 /* Pods_RoadbullTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		CD6C9FB6B052E1CF663F8A56041EA163 /* ObjectMapper */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 23CFD86DE455F2B998EC09D589DA285D /* Build configuration list for PBXNativeTarget "ObjectMapper" */;
+			buildPhases = (
+				F35FEC988ECD73463D93176BC71A43B1 /* Sources */,
+				C4F4068871A73EB6FBE8042AF2063595 /* Frameworks */,
+				F57C9456EA5FB7C7D8FC40BACD0F5369 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ObjectMapper;
+			productName = ObjectMapper;
+			productReference = 232D0BFDCAA8C55E7AF5555FAF7B4BF6 /* ObjectMapper.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		E607C6AF4EC5B4EC9C8DFF5970DE25BF /* Pods-RoadbullUITests */ = {
@@ -356,7 +486,25 @@
 			);
 			name = "Pods-RoadbullUITests";
 			productName = "Pods-RoadbullUITests";
-			productReference = 3EE77FC08F5E240B914082CDEA725CCE /* Pods_RoadbullUITests.framework */;
+			productReference = 9850AF6D30C3166850B51B7EB289DA8B /* Pods_RoadbullUITests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		F64745E5D437F6B6CC57F8CF0CABBD1D /* Pods-Roadbull */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E98976EB21C61E09D4EB8715E4FEC857 /* Build configuration list for PBXNativeTarget "Pods-Roadbull" */;
+			buildPhases = (
+				6B347F5159C2AB25D2D9EF51D10303D8 /* Sources */,
+				5A8F10B3B924F7ED49BFE5BC9A3C02A8 /* Frameworks */,
+				3B4FF63BBA8D22B93DD528E238E89066 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				53738826F0B7E08F2DB160ABE614B69C /* PBXTargetDependency */,
+			);
+			name = "Pods-Roadbull";
+			productName = "Pods-Roadbull";
+			productReference = 0BE394EFBA8A629AB953AD00DC370A0C /* Pods_Roadbull.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -365,8 +513,8 @@
 		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 0830;
-				LastUpgradeCheck = 0700;
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
 			};
 			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -376,11 +524,12 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = 967E88AE1CDBACDC311ED182389BE659 /* Products */;
+			productRefGroup = 180D27B42B33DB935B10AC22459309B1 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				32BC1263D89DC016B3ABEA67EE608C8E /* Pods-Roadbull */,
+				CD6C9FB6B052E1CF663F8A56041EA163 /* ObjectMapper */,
+				F64745E5D437F6B6CC57F8CF0CABBD1D /* Pods-Roadbull */,
 				7205B81D62D3CB30322273D2827F3654 /* Pods-RoadbullTests */,
 				E607C6AF4EC5B4EC9C8DFF5970DE25BF /* Pods-RoadbullUITests */,
 			);
@@ -388,19 +537,19 @@
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
+		6B347F5159C2AB25D2D9EF51D10303D8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3913806A2C50BED228D8EDF2EE9B977E /* Pods-Roadbull-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		CD5F6DA69E8ED336CD8DFFFD4F15438A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				58B0A942214B9D5D5B769D2856037CF6 /* Pods-RoadbullUITests-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		E183D9D729D9C829B09EC6CC27EE49C6 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				FE6E733036D25B545AA3EEC4D1F1A20B /* Pods-Roadbull-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -412,45 +561,54 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		F35FEC988ECD73463D93176BC71A43B1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0F981C56836FE34E921BC7253826A170 /* CustomDateFormatTransform.swift in Sources */,
+				EC1A896625476730D64BF9645624BBAD /* DataTransform.swift in Sources */,
+				4215D7313CE6E738AAD80E9FEC6C60CC /* DateFormatterTransform.swift in Sources */,
+				F9B63BDA169DB048D41DA8395261AEBA /* DateTransform.swift in Sources */,
+				B2EFEFFB34D517F8E9A203B674AEBD13 /* DictionaryTransform.swift in Sources */,
+				706840688BA7E9BDE5F4DD2C0E558835 /* EnumOperators.swift in Sources */,
+				FCE734BD83FB03D3DC9F8AA843ECD73B /* EnumTransform.swift in Sources */,
+				DB87FF0D3B17ABB5452FDD4D70C9A84D /* FromJSON.swift in Sources */,
+				551FB4DF0E5072BB849BB4FCE74F7361 /* HexColorTransform.swift in Sources */,
+				B9C39C539A810D1958AEEF1AEC0FD75C /* ImmutableMappable.swift in Sources */,
+				1894026C296B8A77711607C98ED40C86 /* IntegerOperators.swift in Sources */,
+				255C4ADB2BD82FEEF86A3D4D43F31C63 /* ISO8601DateTransform.swift in Sources */,
+				A5BFC49ED41BC416BEBF4772517AB741 /* Map.swift in Sources */,
+				2D89AB26203628C04B3E87D045525701 /* MapError.swift in Sources */,
+				67A4D8A24085ADC44A65404E73461B43 /* Mappable.swift in Sources */,
+				77CA4CD47748C0B69982A6D82C2799D5 /* Mapper.swift in Sources */,
+				6C2FE27FDBD6621AAB57E4082419C347 /* NSDecimalNumberTransform.swift in Sources */,
+				59109302859941E04E87DC7044DFEE89 /* ObjectMapper-dummy.m in Sources */,
+				EA67527CAF7ED571C8A84B66DDD70FBE /* Operators.swift in Sources */,
+				134859C42E05396F62489E4329ECF6EA /* ToJSON.swift in Sources */,
+				194858D10B9B1DD9FFEFBE4EAA0700F3 /* TransformOf.swift in Sources */,
+				18E9B5E96557418567FCB7DCC559299F /* TransformOperators.swift in Sources */,
+				27156C9092B7A82E24CF96312A941150 /* TransformType.swift in Sources */,
+				F527B0A072DFD754B471E4C1F6B16C48 /* URLTransform.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
-/* Begin XCBuildConfiguration section */
-		19F8BBBF416CDAF98E18A6834D52BE30 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = AC0576C00F28D391A8085CB0769FD4EC /* Pods-RoadbullUITests.debug.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-RoadbullUITests/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-RoadbullUITests/Pods-RoadbullUITests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_RoadbullUITests;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
+/* Begin PBXTargetDependency section */
+		53738826F0B7E08F2DB160ABE614B69C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ObjectMapper;
+			target = CD6C9FB6B052E1CF663F8A56041EA163 /* ObjectMapper */;
+			targetProxy = E72884B01525BA4725274555CDCCA88F /* PBXContainerItemProxy */;
 		};
-		35BD63BA0B7EF84A74FA8CCCDF60CCE0 /* Release */ = {
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0E7F653654F7674CBB62AB16124803AB /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4966C1994996AD7C170066FCE5E3D258 /* Pods-Roadbull.release.xcconfig */;
+			baseConfigurationReference = CF25413F675465EEB4337B354C213DD6 /* Pods-Roadbull.debug.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -473,14 +631,48 @@
 				PRODUCT_NAME = Pods_Roadbull;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Release;
+			name = Debug;
 		};
-		39C5BC78A31CDE101068C530CAC7FA0F /* Debug */ = {
+		1BF2ED4E235576AE8DEE7E05C1156A95 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 74360F2AEED9EEE85541B383237709DC /* Pods-RoadbullTests.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-RoadbullTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-RoadbullTests/Pods-RoadbullTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_RoadbullTests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		323A24856F1A4871A780301AF5C02A2A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -490,10 +682,12 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
 				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
@@ -501,6 +695,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
@@ -540,7 +735,171 @@
 			};
 			name = Debug;
 		};
-		89C8BB24E37B25BAEEB8FBA01EE05DAF /* Release */ = {
+		386881142C50AC997FE525F28579581A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F3562BA251B17E764C18D9E65E4B18E9 /* Pods-RoadbullUITests.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-RoadbullUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-RoadbullUITests/Pods-RoadbullUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_RoadbullUITests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		3AFAE4B3A5545F70425A4551C633AF04 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B0509A228B79E4C9E75D6B801BCB31CD /* Pods-RoadbullTests.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-RoadbullTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-RoadbullTests/Pods-RoadbullTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_RoadbullTests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		53DF481CEE74E5639A21FB9731E43336 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AD30F9CC69A63135A0833C19773C8163 /* ObjectMapper.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/ObjectMapper/ObjectMapper-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ObjectMapper/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/ObjectMapper/ObjectMapper.modulemap";
+				PRODUCT_NAME = ObjectMapper;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		A4F94108B28C1E5A3BABB49DB11C5E14 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2288F9CC4D1204CE17A65697AF8F9075 /* Pods-RoadbullUITests.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-RoadbullUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-RoadbullUITests/Pods-RoadbullUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_RoadbullUITests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		C43E88AB294B5850790C56391ADB7CD8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AD30F9CC69A63135A0833C19773C8163 /* ObjectMapper.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/ObjectMapper/ObjectMapper-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ObjectMapper/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/ObjectMapper/ObjectMapper.modulemap";
+				PRODUCT_NAME = ObjectMapper;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		CA33F186435244FD0FD5B7325332656C /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -550,10 +909,12 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
 				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
@@ -561,6 +922,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
@@ -595,43 +957,11 @@
 			};
 			name = Release;
 		};
-		8F5F51C01C8B4A3E1BA2199E3655F514 /* Release */ = {
+		E6EE65FD70C5EF7FDF1D5B56908D872F /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5A78722605E4C6800589C5C93E76E2E0 /* Pods-RoadbullUITests.release.xcconfig */;
+			baseConfigurationReference = CB0B5A996C2EC665EE206F93BA1B6555 /* Pods-Roadbull.release.xcconfig */;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-RoadbullUITests/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-RoadbullUITests/Pods-RoadbullUITests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_RoadbullUITests;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		C1B267DB0B4627401162C0A8B49F5ADA /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 65958B608696878A028C6BE825C44306 /* Pods-Roadbull.debug.xcconfig */;
-			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -654,70 +984,7 @@
 				PRODUCT_NAME = Pods_Roadbull;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		D18E138615C38C68E0D0E615C952B2E5 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9252BC71EBF76C9259B34FA8AFA897AE /* Pods-RoadbullTests.debug.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-RoadbullTests/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-RoadbullTests/Pods-RoadbullTests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_RoadbullTests;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		E44CE879DB2E3F29B707BE04C8CD2C3D /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2AABB07F4F98D9A4E8497D9978200424 /* Pods-RoadbullTests.release.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-RoadbullTests/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-RoadbullTests/Pods-RoadbullTests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_RoadbullTests;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -728,11 +995,20 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		23CFD86DE455F2B998EC09D589DA285D /* Build configuration list for PBXNativeTarget "ObjectMapper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				53DF481CEE74E5639A21FB9731E43336 /* Debug */,
+				C43E88AB294B5850790C56391ADB7CD8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				39C5BC78A31CDE101068C530CAC7FA0F /* Debug */,
-				89C8BB24E37B25BAEEB8FBA01EE05DAF /* Release */,
+				323A24856F1A4871A780301AF5C02A2A /* Debug */,
+				CA33F186435244FD0FD5B7325332656C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -740,17 +1016,17 @@
 		A05AC7CE5CCDCB5434116A262C6DC854 /* Build configuration list for PBXNativeTarget "Pods-RoadbullTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				D18E138615C38C68E0D0E615C952B2E5 /* Debug */,
-				E44CE879DB2E3F29B707BE04C8CD2C3D /* Release */,
+				1BF2ED4E235576AE8DEE7E05C1156A95 /* Debug */,
+				3AFAE4B3A5545F70425A4551C633AF04 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		D76674B7DDAD47F1CA57CABB183E91DD /* Build configuration list for PBXNativeTarget "Pods-Roadbull" */ = {
+		E98976EB21C61E09D4EB8715E4FEC857 /* Build configuration list for PBXNativeTarget "Pods-Roadbull" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				C1B267DB0B4627401162C0A8B49F5ADA /* Debug */,
-				35BD63BA0B7EF84A74FA8CCCDF60CCE0 /* Release */,
+				0E7F653654F7674CBB62AB16124803AB /* Debug */,
+				E6EE65FD70C5EF7FDF1D5B56908D872F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -758,8 +1034,8 @@
 		FC8D83D4EDEB0932572227AF49D7D37A /* Build configuration list for PBXNativeTarget "Pods-RoadbullUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				19F8BBBF416CDAF98E18A6834D52BE30 /* Debug */,
-				8F5F51C01C8B4A3E1BA2199E3655F514 /* Release */,
+				A4F94108B28C1E5A3BABB49DB11C5E14 /* Debug */,
+				386881142C50AC997FE525F28579581A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
